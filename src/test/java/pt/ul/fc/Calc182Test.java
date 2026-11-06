@@ -26,7 +26,7 @@ class Calc182Test {
 
     @Test
     void Teste1() {
-        assertEqualis(5.0, Calc182.times(1));
+        assertEquals(5.0, Calc182.times(1));
     }
 
     @Test
