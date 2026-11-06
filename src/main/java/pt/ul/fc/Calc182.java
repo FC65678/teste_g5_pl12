@@ -21,7 +21,7 @@ public class Calc182 {
      * Returns the larger of x and y.
      */
     public static int pickMax(int x, int y) {
-        return Math.min(x, y);
+        return Math.max(x, y);
     }
 
     /**
@@ -35,7 +35,7 @@ public class Calc182 {
      * Returns value multiplied by 5.
      */
     public static int times(int value) {
-        return value + 5;
+        return value * 5;
     }
 
     /**
